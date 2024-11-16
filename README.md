@@ -1,5 +1,14 @@
 # lvm_uw_training
 
+## Training sessions
+
+There will be two training sessions for the UW observers:
+
+- Tuesday, November 19th 3:30-5:00pm PST in the undergraduate computer lab (PAB B360): this will be an in person session and we will spend some time trying to get you ready to observe, so please bring your laptop if you can.
+- Tuesday, November 19th 6:30-8:00pm PST on [Zoom](https://washington.zoom.us/my/gallegoj). This session will be recorded.
+
+Please try to make one of the two sessions if at all possible. If you cannot make any of them do watch the Zoom recording, follow the next steps to get ready to observe with LVM, and check the resources below. You will be partnered with another UW or LVM observer for your first one or two nights.
+
 ## Getting ready to observe with LVM
 
 ### Share your public SSH key
