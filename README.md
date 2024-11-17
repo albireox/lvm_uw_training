@@ -89,6 +89,7 @@ Communication with the on-site observers and between LVM observers is done throu
 
 ## Resources
 
+- [LVM overview](https://www.sdss.org/dr18/lvm/about/) and [paper](https://arxiv.org/abs/2405.01637).
 - [LVM WebApp](https://lvm-web.lco.cl)
 - [LVM Observer Guide](./LVM-LVM%20observing%20guide-161124-200209.pdf)
 - [Overwatcher User Guide](./COS-Overwatcher's%20Guide%20to%20the%20Galaxy%20(the%20Universe,%20and%20Everything%20Else)-161124-200137.pdf)
