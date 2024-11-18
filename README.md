@@ -105,3 +105,15 @@ Some of these links require you to be connected to the LVM servers via SSH. Othe
 - [LVM Observer Guide](./LVM-LVM%20observing%20guide-161124-200209.pdf)
 - [Overwatcher User Guide](./COS-Overwatcher's%20Guide%20to%20the%20Galaxy%20(the%20Universe,%20and%20Everything%20Else)-161124-200137.pdf)
 - [Video on observing with the Overwatcher](https://www.dropbox.com/scl/fi/nt9m76bmbc8q22s6sv6i0/Overwatcher_Overview_video.mp4?rlkey=el8j8yq3hd52zvf83x2w9ki84&dl=0)
+
+
+## Checklist
+
+- [ ] Share your public SSH key.
+- [ ] Install VNC Viewer.
+- [ ] Test your SSH and VNC connections.
+- [ ] Sign up for the SDSS-V Slack and join the necessary channels.
+- [ ] Watch the video on observing with the Overwatcher.
+- [ ] Read the [LVM Observer Guide](./LVM-LVM%20observing%20guide-161124-200209.pdf).
+- [ ] Add your availability to the [observing schedule](https://docs.google.com/spreadsheets/d/1VJWmer32dwGh-vVsU0C7CWn84k1HlkoAS3aMrF-gJkg/edit).
+- [ ] Confirm that you have beed added to the `lvm-operations` mailing list.
