@@ -79,13 +79,24 @@ Communication with the on-site observers and between LVM observers is done throu
 1. An invitation will be sent to your email. Follow the instructions to sign up.
 2. Once you are signed up, you can access the Slack workspace [here](https://app.slack.com/) or add it to the Slack app.
 3. Make sure you join the following channels:
-
     - `#lvm-core-observations-team`
     - `#lvm-dupont-observing`
     - `#lvm-notifications`
     - `#lvm-overwatcher`
     - `#lvm-alerts`
 4. If you need to ask questions, especially if something happens during observing that you don't know how to handle, you can ask in the `#lvm-core-observations-team` channel. If nobody responds, try DMing `@gallegoj` or `@ejohnston`.
+
+## Useful links
+
+Some of these links require you to be connected to the LVM servers via SSH. Others are protected by a password that can be found in [this document](./LVM-LVM%20observing%20guide-161124-200209.pdf) or by asking an SDSS member. Please do not post the password in any public forum, including this repository.
+
+- [LCO Weather page](https://weather.lco.cl) (current weather on site)
+- [LCO Meteoblue page](https://weather.lco.cl) (for future forecast)
+- [LCO ephemeris](https://www.lco.cl/ephemeris-for-lco/)
+- [Webcams](http://localhost:18888) (you need to be connected via ssh. Best option is to open from the webcam link in the Overwatcher).
+- [Grafana](http://lvm-grafana.lco.cl)
+- [Observing schedule](https://docs.google.com/spreadsheets/d/1VJWmer32dwGh-vVsU0C7CWn84k1HlkoAS3aMrF-gJkg/edit)
+- [Zoom link](https://washington.zoom.us/j/94769831227)
 
 ## Resources
 
