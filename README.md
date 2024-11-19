@@ -39,11 +39,19 @@ If you don't have one, you can generate one using the following steps (this shou
 7. Create a `config` file in the `~/.ssh` directory with the following content (or add this content to an existing `config` file):
 
     ```bash
-    Host lvm-obssever
+    Host lvm-sdss5-hub
+        HostName lvm-hub.lco.cl
+        User sdss5
+        ForwardAgent yes
+        ProxyCommand ssh -W %h:%p sdss5@sdss5-gateway.lco.cl
         IdentityFile ~/.ssh/id_lvm_<your-uw-id>
+
+    Host lvm-observer
         User observer
         HostName 10.8.38.27
-        ProxyCommand ssh -A -W %h:%p lvm-hub
+        ProxyCommand ssh -A -W %h:%p sdss5@lvm-sdss5-hub
+        IdentityFile ~/.ssh/id_lvm_<your-uw-id>
+        ForwardAgent yes
         LocalForward 59000 10.8.38.27:5901
         LocalForward 18888 camaras-02.lco.cl:443
     ```
