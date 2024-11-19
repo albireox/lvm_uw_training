@@ -54,6 +54,7 @@ If you don't have one, you can generate one using the following steps (this shou
         ForwardAgent yes
         LocalForward 59000 10.8.38.27:5901
         LocalForward 18888 camaras-02.lco.cl:443
+        LocalForward 8090 10.8.38.21:8090
     ```
 
 8. Once your public key is added to the server (this may take a few days), you can access the server by running the following command:
