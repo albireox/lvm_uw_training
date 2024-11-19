@@ -35,7 +35,7 @@ If you don't have one, you can generate one using the following steps (this shou
     -rw-r--r--   1 gallegoj  staff   745B Nov 16 12:11 id_lvm_gallegoj.pub
     ```
 
-6. Share the *public* (the one ending in `.pub`) key by dropping it [here](https://www.dropbox.com/request/nC5nA1NKQJqJo0oaG6ui). Sharing your public SSH key is always safe but never share your private key with anybody.
+6. Share the *public* (the one ending in `.pub`) key by dropping it [here](https://www.dropbox.com/request/nC5nA1NKQJqJo0oaG6ui). Sharing your public SSH key is always safe but never share your private key with anybody. Do *not* copy the fingerprint that gets output when you run the `ssh-keygen` command, only the contents of the `.pub` file, and don't copy-paste the file into a Google Doc or a PDF.
 7. Create a `config` file in the `~/.ssh` directory with the following content (or add this content to an existing `config` file):
 
     ```bash
