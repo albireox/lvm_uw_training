@@ -127,3 +127,4 @@ Some of these links require you to be connected to the LVM servers via SSH. Othe
 - [ ] Read the [LVM Observer Guide](./LVM-LVM%20observing%20guide-161124-200209.pdf).
 - [ ] Add your availability to the [observing schedule](https://docs.google.com/spreadsheets/d/1VJWmer32dwGh-vVsU0C7CWn84k1HlkoAS3aMrF-gJkg/edit).
 - [ ] Confirm that you have beed added to the `lvm-operations` mailing list.
+- [ ] Update your readiness in [this spreadsheet](https://docs.google.com/spreadsheets/d/10HzmDj08I42ZGjyN3UaZ4_zPlzyvBaGOyaYb5VCxlA4/edit?usp=sharing).
