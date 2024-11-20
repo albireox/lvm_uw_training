@@ -43,13 +43,13 @@ If you don't have one, you can generate one using the following steps (this shou
         HostName lvm-hub.lco.cl
         User sdss5
         ForwardAgent yes
-        ProxyCommand ssh -W %h:%p sdss5@sdss5-gateway.lco.cl
+        ProxyCommand ssh -i ~/.ssh/id_lvm_<your-uw-id> -W %h:%p sdss5@sdss5-gateway.lco.cl
         IdentityFile ~/.ssh/id_lvm_<your-uw-id>
 
     Host lvm-observer
         User observer
         HostName 10.8.38.27
-        ProxyCommand ssh -A -W %h:%p sdss5@lvm-sdss5-hub
+        ProxyCommand ssh  -A -W %h:%p sdss5@lvm-sdss5-hub
         IdentityFile ~/.ssh/id_lvm_<your-uw-id>
         ForwardAgent yes
         LocalForward 59000 10.8.38.27:5901
@@ -67,7 +67,7 @@ If you don't have one, you can generate one using the following steps (this shou
 
 If you already have an SSH key that you want to use, you don't need to create a new one, just send us that one but please make sure it's an RSA key.
 
-If you are using Windows, you can try following [these instructions](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement) to generate an SSH key, using an app like [PuTTY](https://www.putty.org), or installing the Windows Subsystem for Linux (WSL). Please note that we can't provide support for Windows because we don't have a lot of experience with it. Ultimately you need to be able to generate an RSA key pair and be able to use it to SSH and forward the above ports with it.
+If you are using Windows, the best options is to install the [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install) from an admin terminal, then open a WSL terminal and follow the instructions above. Please reach out in the UW-LVM Slack channel if you need help.
 
 ### VNC Viewer
 
