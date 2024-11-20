@@ -116,6 +116,7 @@ Some of these links require you to be connected to the LVM servers via SSH. Othe
 - [Video on observing with the Overwatcher](https://www.dropbox.com/scl/fi/nt9m76bmbc8q22s6sv6i0/Overwatcher_Overview_video.mp4?rlkey=el8j8yq3hd52zvf83x2w9ki84&dl=0)
 - [Telescopes paper](https://iopscience.iop.org/article/10.3847/1538-3881/ad7948/pdf)
 - [Training presentation](./LVM%20UW%20Observer%20Training.pdf)
+- [Training video](https://washington.zoom.us/rec/share/cc8DB1nNt9HdugfQUCe-K-l7J98acCqoTzBtYJNwuQeCGBfTrMrHxemfFjV4kUN9.f7KM95gwaXETlGo3)
 
 ## Checklist
 
