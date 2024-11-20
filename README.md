@@ -67,7 +67,7 @@ If you don't have one, you can generate one using the following steps (this shou
 
 If you already have an SSH key that you want to use, you don't need to create a new one, just send us that one but please make sure it's an RSA key.
 
-If you are using Windows, the best options is to install the [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install) from an admin terminal, then open a WSL terminal and follow the instructions above. Please reach out in the UW-LVM Slack channel if you need help.
+If you are using Windows, the best options is to install the [Windows Subsystem for Linux (WSL)](https://learn.microsoft.com/en-us/windows/wsl/install) from an admin terminal, then open a WSL terminal and follow the instructions above. See [these detailed instructions](./ssh-windows.md) (thanks Parker!) and reach out in the UW-LVM Slack channel if you need help.
 
 ### VNC Viewer
 
